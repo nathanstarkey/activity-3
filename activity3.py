@@ -9,7 +9,7 @@ while choice.lower() == "y":
     common = 1
     discount = 0
     price = 0
-# gets price for lumber based off of choice.
+# gets price for lumber based off of choice
     if lumber == 1:
         price = board_feet * 2
     elif lumber == 2:
