@@ -17,7 +17,7 @@ while choice.lower() == "y":
     else:
         print("That is not a valid number. Please enter either a 1 or a 2.")
         break
-# adds discount if needed based off of price of lumber.
+# adds discount if needed based off of price of lumber
     if price >= 10000 and price <= 49999:
         price -= price * 0.1
     elif price >= 50000:
